@@ -1,0 +1,5 @@
+region = "us-east-2"
+ami_id = "ami-05fb0b8c1424f266b"
+instancetype = "t2.micro"
+vpc_cidr = "10.0.0.0/16"
+subnet_cidr = "10.0.1.0/24"
