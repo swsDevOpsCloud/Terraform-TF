@@ -1,5 +1,8 @@
-region = "us-east-2"
-ami_id = "ami-05fb0b8c1424f266b"
-instancetype = "t2.micro"
-vpc_cidr = "10.0.0.0/16"
-subnet_cidr = "10.0.1.0/24"
+# Initialize the string variable name elb_name
+elb_name = "1st-elb" 
+
+# Initialize the number variable name timeout 
+timeout = 400 
+
+# Initialize the list variable name az_list 
+az_list = ["us-east-2", "ap-south-1"]
