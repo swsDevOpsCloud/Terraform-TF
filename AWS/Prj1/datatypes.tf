@@ -1,4 +1,4 @@
-resource "aws_elb" "bar" {
+/*resource "aws_elb" "bar" {
     name = var.elb_name
     availability_zones = var.az_list
 
@@ -24,4 +24,4 @@ resource "aws_elb" "bar" {
     tags = {
         Name = "terraform-elb"
     }
-}
+}*/

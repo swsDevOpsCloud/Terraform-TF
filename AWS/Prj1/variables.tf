@@ -1,4 +1,4 @@
-variable "elb_name" {
+/*variable "elb_name" {
     type = string
 }
 
@@ -9,4 +9,4 @@ variable "az_list" {
 
 variable "timeout" {
     type = number
-}
+}*/
