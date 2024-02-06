@@ -1,14 +1,14 @@
 resource "aws_instance" "web" {
-    ami = "aaami-0866a04d72a1f5479"
-    instance_type = var.types["us-east-1"]
+    ami = var.ami_id
+    instance_type = "t2.micro"
 }
 
 #Create Map variable
-variable "types" {
+/*variable "types" {
     type = map
     default = {
         us-east-1 = "t2.small"
         us-east-2 = "t2.nano"
         ap-south-1 = "t2.micro"
     }
-}
+}*/
